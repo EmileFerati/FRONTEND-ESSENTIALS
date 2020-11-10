@@ -1,3 +1,11 @@
+
+        prompt("wat is je voornaam?")
+        prompt("wat is je achternaam?")
+        prompt("wat is je emailadres?")
+        prompt("wat is je woonplaats?")
+
+
+
 let leeftijd = prompt ("wat is je leeftijd");
 let stemleeftijd = 16;
 
@@ -13,9 +21,14 @@ let persoon = {
     voornaam : prompt("Wat is je naam?"),
     achternaam : prompt("Wat is je achternaam?"),
     leeftijd : prompt("Wat is je leeftijd?"),
+
+   
 };
 console.log(persoon);
 console.log(persoon.achternaam);
+
+
+    
 
 // let persoonelement = document.querySelector(".container")
 // persoonelement.innerHTML = "Emile Ferati"
