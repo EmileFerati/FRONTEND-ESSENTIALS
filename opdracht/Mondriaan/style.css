@@ -15,7 +15,7 @@ div{
 
 /* CSS class voor achtergrond die niet zichtbaar is voor het eindresultaat */
 .bg-temp{
-    background-image: repeating-linear-gradient(-45deg, grey,white);
+    background-image: repeating-linear-gradient(-45deg,white,white);
 }
 
 .horizontaal{
@@ -113,8 +113,11 @@ div{
 /* Rechtskant vierde rij */
 #rechts-rij-vier{
     height: 31%;
-    width: 100%;
+    width: 40%;
+    background-color: red;
+    
 }
+
 
 
 

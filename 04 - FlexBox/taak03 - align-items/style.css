@@ -1,0 +1,7 @@
+.container{
+    border:5px solid darkmagenta;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+  }
+  
+  .Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+  }
+  
+  .Flag {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 9px 20px #e0dcdc;
+  }
+  
+  .Flag::before {
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    content: "★";
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+  }
+  
+  .Flag::after {
+    position: absolute;
+    width: inherit;
+    height: 100px;
+    top: 100px; 
+    left: 0px;
+    content: "";
+    background-color: red;
+  }

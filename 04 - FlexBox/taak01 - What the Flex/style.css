@@ -1,0 +1,54 @@
+.container{
+    width: 500px;
+    height: 130px;
+    display: flex ;
+    border:5px solid darkmagenta;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: 100px;
+    
+    
+}
+
+.wwe{
+    width: 700px;
+    height: 130px;
+    display: flex ;
+    border:5px solid darkmagenta;
+    flex-direction: row-reverse;
+    margin: 30px;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+
+
+
+
+.aa{
+    border:5px solid darkmagenta;
+    border-right:10px ;
+    display: flexbox;
+    flex-direction:column;
+margin: 30px;
+margin-right: 30px;
+max-width: 890px;
+min-height: 130px;
+margin-left: 100px;
+}
+
+.rko{
+    border:5px solid darkmagenta;
+    border-right:10px ;
+    display: flex;
+    flex-direction:column-reverse;
+    margin: 30px;
+    margin-right: 30px;
+    max-width: 890px;
+    min-height: 130px;
+    margin-left: 100px;
+}
+
+
+
+    
+
